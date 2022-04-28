@@ -1,56 +1,77 @@
-# TownHall
-<!DOCTYPE html>
-<html>
-<title>Andrew Ross Sorkin</title>
-<head>
-<style>
-p.normal {
-font-family: "Times New Roman", Times, serif;
-font-size: medium
-}
+<IDOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>San Joaquin Valley Town Hall</title>
+        <link rel="shortcut icon" href="images/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.jpg" alt="Town Hall Logo" width="50">
+            <h2>San Joaquin Valley Town Hall</h2>
+            <h3>Celebrating our 75<sup>th</sup> Year</h3>
+        </header>
+        <main>
+            <!-- According to requirement no 6 h2 tags for our mission and our ticket packages -->
+            <h2>Our Mission</h2>
+            <!-- According to requirement no 7 -->
+            <p>San Joaquin Valley Town Hall is a non-profit organization that is run by an all-volunteer board of directors. Our mission is to bring 
+                nationally and internationally renowned, thought-provoking speakers who inform, educate, and entertain our audience! As one or our members told us:</p>
+                <blockquote>&quot;Each year I give a ticket package to each of our family members. I think of it as the gift of knowledge... and that is priceless.&quot;</blockquote>
 
-h1 {
-font-family: "Times New Roman", Times, serif;
-}
-</style>
-</head>
-<body>
-
-
-<h1>Andrew Ross Sorkin, author of <i>Too Big to Fail</i></h1>
-<h3>November 2015</h3>
-<img src="./sorkin_desk260.jpg" alt="Andre Ross Sorkin" style="width:260px;">
-<p class="normal">New York Times columnist and Author, Andrew Ross Sorkin has been described as
-<q>the most famous financial journalist of this generation</q> His book, <i>Too Big to Fail</i>,
-was the first behind-the-scnenes account of the financial crisis that led to the current recession.</p>
-
-<p class="normal">The Economist, The Financial Times, and Business Week all named <i>Too Big To Fail</i> one
-    of the best books of the year. The book was published by Viking October 20, 2009. The book was adapted as
-a movie by HBO Films and premiered on HBO on May 23, 2011.</p>
-<h2>The Cast of the movie: <i>Too Big to Fail</i></h2>
-<ol>
-        <li>William Hunt as Hank Paulson</li>
-        <li>Paul Giamatti as Ben Bernanke</li>
-        <li>Billy Crudup as Timothy Geithner</li>
-      </ol>
-
-<h2>Movie reviews</h2>
-
-<p class="normal"><q>Lots of heat but not very much light. It came across as a kind of daytime soap opera version
-    showing the personalities of the players rather than dealing with the nuts and bolts of what really happened.
-    Even that would not have been so bad but the movie tries to portray lots of these folks as sympathetic figures
-    just trying to do the right thing.
-</q></p>
-
-<p class="normal"><q>I am watching this for the 3rd time, trying to understand how this large group of capitalistic
-    pigs could royally screw their families, descendants, neighbors, countrymen and the rest of the whole world with
-    absolutely no compassion
-</q></p>
-
-<footer>
-        <p>Posted by: Your Name</p>
-        <p>Date: Today's Date </p>
-      </footer>
-
-</body>
+            <h2>Our Ticket Packages</h2>
+            <!-- According to requirement no 8 ul tags were written -->
+            <ul>
+                <!-- According to requirement no 8 ul and li tags were written -->
+                <li>Season Package: $95</li>
+                <li>Patron Package: $200</li>
+                <li>Single Speakers: $25</li>
+            </ul>
+            <!-- According to requirement no 6 h1 tag for heading this seasons guest speakers -->
+            <h1>This season's guest speakers</h1>
+            <!-- According to requirement no 9 month and speaker name are separated with <br> tag -->
+            <h3>October<br>
+                <!-- According to requirement no 11 speaker name is enclosed in <a> tag -->
+                <a href="speakers/toobin.html">Jeffrey Toobin</a>
+            </h3>
+            <!-- According to requirement no 12 images are enclosed in <img> tag and filenames are specified with alt also -->
+            <img src="images/toobin75.jpg" alt="Jeffrey Toobin" width="75">
+            <h3>November<br>
+                <!-- According to requirement no 11 speaker name is enclosed in <a> tag -->
+                <a href="speakers/sorkin.html">Andrew Ross Sorkin</a>
+            </h3>
+            <!-- According to requirement no 12 images are enclosed in <img> tag and filenames are specified with alt also -->
+            <img src="images/sorkin75.jpg" alt="Andrew Ross Sorkin" width="75">
+            <h3>January<br>
+                <!-- According to requirement no 11 speaker name is enclosed in <a> tag -->
+                <a href="speakers/chua.html">Amy Chua</a>
+            </h3>
+            <!-- According to requirement no 12 images are enclosed in <img> tag and filenames are specified with alt also -->
+            <img src="images/chua75.jpg" alt="Amy Chua" width="75">
+            <h3>February<br>
+                <!-- According to requirement no 11 speaker name is enclosed in <a> tag -->
+                <a href="speakers/sampson.html">Scott Sampson</a>
+            </h3>
+            <!-- According to requirement no 12 images are enclosed in <img> tag and filenames are specified with alt also -->
+            <img src="images/sampson75.jpg" alt="Scott Sampson" width="75">
+            <h3>March<br>
+                <!-- According to requirement no 11 speaker name is enclosed in <a> tag -->
+                <a href="speakers/eire.html">Carlos Eire</a>
+            </h3>
+            <!-- According to requirement no 12 images are enclosed in <img> tag and filenames are specified with alt also -->
+            <img src="images/eire75.jpg" alt="Carlos Eire" width="75">
+            <h3>April<br>
+                <!-- According to requirement no 11 speaker name is enclosed in <a> tag -->
+                <a href="speakers/tynan.html">Ronan Tynan</a>
+            </h3>
+            <!-- According to requirement no 12 images are enclosed in <img> tag and filenames are specified with alt also -->
+            <img src="images/tynan75.jpg" alt="Ronan Tynan" width="75">
+            <p><em>Contact us by phone</em>at(559)555-1212for ticket
+            information.</p>
+        </main>
+        <footer>
+            <!-- According to requirement no 13 the footer of the html is enclosed in <p> tag inside the <footer> tag -->
+            <p>&copy;Copyright 2018 San Joaquin Valley Town Hall.</p>
+        </footer>
+    </body>
 </html>
